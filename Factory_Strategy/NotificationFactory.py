@@ -1,6 +1,6 @@
-from Factory.Notification import Notification
-from Factory.NotificationTypes import NotificationTypes
-from Factory import Email, Push, Sms
+from Factory_Strategy.Notification import Notification
+from Factory_Strategy.NotificationTypes import NotificationTypes
+from Factory_Strategy import Email, Push, Sms
 from typing import Optional
 
 

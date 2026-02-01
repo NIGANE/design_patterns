@@ -1,4 +1,4 @@
-from Factory.Notification import Notification
+from Factory_Strategy.Notification import Notification
 
 
 class Push(Notification):

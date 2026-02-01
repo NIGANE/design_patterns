@@ -1,4 +1,4 @@
 PY = python3
 
 factory:
-	@$(PY) -m Factory.main
+	@$(PY) -m Factory_Strategy.main

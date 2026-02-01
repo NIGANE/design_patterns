@@ -1,5 +1,5 @@
-from Factory.NotificationTypes import NotificationTypes
-from Factory.NotificationFactory import NotificationFactory
+from Factory_Strategy.NotificationTypes import NotificationTypes
+from Factory_Strategy.NotificationFactory import NotificationFactory
 
 
 def main() -> None:
