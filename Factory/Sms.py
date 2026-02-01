@@ -5,4 +5,4 @@ class Sms(Notification):
 
     @staticmethod
     def send(mess: str = None) -> None:
-        print(f"notify via Sms: {mess}")
+        print(f"notify via Sms: {mess}".title())

@@ -17,7 +17,7 @@ class NotificationFactory:
             ) -> Optional[Notification]:
 
         if notify_type in cls._registy:
-            return cls._registy[notify_type].send()
+            return cls._registy[notify_type]
         else:
             raise ValueError(
                 f"Oops! {notify_type} is not a valid notification type."
